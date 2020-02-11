@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用GitHub部署Maverick
-slug: blog with gitHub
+slug: blog-with-gitHub
 date: 2019-12-20 12:10
 status: publish
 author: mikusa
