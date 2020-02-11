@@ -12,14 +12,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/blog with gitHub/</loc>
+    <loc>/archives/blog-with-gitHub/</loc>
     <lastmod>2019-12-20</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>/archives/hello world/</loc>
+    <loc>/archives/hello-world/</loc>
     <lastmod>2019-12-18</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
