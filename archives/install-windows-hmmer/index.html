@@ -32,19 +32,20 @@
         });
     </script>
     
-<title>Tag: Typography - 初之文库</title>
+<title>Windows Hmmer 的安装 - 初之文库</title>
 <meta name="author" content="mikusa" />
-<meta name="description" content="你好，未来。" />
-<meta property="og:title" content="Tag: Typography - 初之文库" />
-<meta property="og:description" content="你好，未来。" />
+<meta name="description" content="Windows Hmmer 的安装方法" />
+<meta property="og:title" content="Windows Hmmer 的安装 - 初之文库" />
+<meta property="og:description" content="Windows Hmmer 的安装方法" />
 <meta property="og:site_name" content="初之文库" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/tag/Typography/" />
-<meta property="og:image" content="初之文库" />
-<meta name="twitter:title" content="Tag: Typography - 初之文库" />
-<meta name="twitter:description" content="你好，未来。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/archives/install-windows-hmmer/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2020-03-20T12:10:00-00.00" />
+<meta name="twitter:title" content="Windows Hmmer 的安装 - 初之文库" />
+<meta name="twitter:description" content="Windows Hmmer 的安装方法" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/logo.png" />
+<meta name="twitter:image" content="" />
 
 
     
@@ -53,7 +54,7 @@
 
     </head>
     
-    <body class="archive">
+    <body class="content">
         <header>
             <div class="container">
                 <section>
@@ -95,7 +96,7 @@
                     
                     <section>
                         
-    <div class=" "><span><a href="/category/Bio/">Bio</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/install-windows-hmmer/">Windows Hmmer 的安装</a></li></ul></div><div class=" "><span><a href="/category/Blog/">Blog</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/blog-with-gitHub/">使用GitHub部署Maverick</a></li><li class=""><a href="/archives/hello-world/">Hello World!</a></li></ul></div>
+    <div class="open "><span><a href="/category/Bio/">Bio</a><button class="toggle_sidebar fa"></button></span><ul><li class="current"><a href="/archives/install-windows-hmmer/">Windows Hmmer 的安装</a></li></ul></div><div class=" "><span><a href="/category/Blog/">Blog</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/blog-with-gitHub/">使用GitHub部署Maverick</a></li><li class=""><a href="/archives/hello-world/">Hello World!</a></li></ul></div>
 
                     </section>
                     <section hidden class="sidebar-external-link">
@@ -111,33 +112,88 @@
                 </aside>
                 <div id="content-wrapper">
                     <div id="content">
-
     <section>
-        <h1 class="page-title">TAG: #Typography</h1>
-        <div id="content-list">
-            
-            <section class="card-list">
+        <h1 class="post-title">Windows Hmmer 的安装</h1>
+        <p class="post-meta">
+            <time>March 20 2020</time>
+            <span class="tags">
                 
-                    <a class="card" href="/archives/hello-world/">
-                        <time>December 18 2019</time>
-                        <span>Hello World!</span>
-                    </a>
+                <span>
+                    <a href="/tag/生物/">#生物</a>
+                </span>
                 
-            </section>
-        </div>
+                <span>
+                    <a href="/tag/Hmmer/">#Hmmer</a>
+                </span>
+                
+            </span>
+        </p>
+        <article class="yue"><h3>1. 下载</h3>
+<p>既然不能为了使用 Linux HMMER 特地开个虚拟机<del>（好像也不是不行）</del>，那就找找看历史版本。通过已知的 Linux 版下载链接，发现 HMMER 把所有的历史软件都放在<a href="http://eddylab.org/software/">这个地方</a> 备份着，因此得知最后一个 Windows HMMER 版本为 3.0。<a href="http://eddylab.org/software/hmmer3/3.0/hmmer-3.0-windows.zip">传送门</a>  / <a href="https://www.lanzous.com/iafa2sf">备份</a></p>
+<p><figure><img data-width="845" data-height="513" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/ec5f14ec7675ce165ea727d5b2de9900.png" alt="" /></figure></p>
+<p>下载、解压之后，是一堆看不懂的东西，没有可以直接双击打开的<code>.exe</code>文件，大概是需要敲命令才能启动程序。搜索了一下安装方法<sup id="fn_ref_1"><a href="#fn_1">1</a></sup>，下面详细演示。</p>
+<h3>2. 安装</h3>
+<p>Windows HMMER 安装起来还算简单。</p>
+<p>首先打开 <strong>控制面板</strong>，搜索 <strong>环境变量</strong>，点击 <strong>编辑系统环境变量</strong>，选择 <strong>环境变量</strong></p>
+<p><figure><img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200318180505633.png#vwid=1078&vhei=598" alt="" /></figure></p>
+<p>在 <strong>系统变量</strong> 里找到<code>Path</code>，点击 <strong>编辑</strong></p>
+<p><figure><img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200318182918857.png#vwid=592&vhei=266" alt="image-20200318182918857" /><figcaption>image-20200318182918857</figcaption></figure></p>
+<p>点击右边的 <strong>新建</strong> 按钮，填入 HMMER 所在的 <strong>路径</strong></p>
+<p><figure><img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200318183107408.png#vwid=525&vhei=531" alt="image-20200318183107408" /><figcaption>image-20200318183107408</figcaption></figure></p>
+<p>如果不知道啥叫路径，进入你放 HMMER 的地方，按照下图把地址栏里的东西复制下来，粘贴进上面的变量里，添加完成后，一路确定就行。</p>
+<p><figure><img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200311220644025.png#vwid=924&vhei=521" alt="" /></figure></p>
+<h3>3. 测试</h3>
+<p>接下来 <strong>测试</strong> 看能不能用，需要用到可以输入命令的东西。常用的有 CMD 和 Windows PowerShell，二选一即可。</p>
+<p>打开CMD：WINDOWS键 + R ，输入 <code>cmd</code>，点击确定打开<strong>命令提示符</strong></p>
+<p><figure><img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200311221032264.png#vwid=399&vhei=230" alt="" /></figure></p>
+<p>打开Windows PowerShell：对着开始菜单 <strong>右键</strong>，选择<code>Windows PowerShell</code></p>
+<p><figure><img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200311221357201.png#vwid=859&vhei=386" alt="" /></figure></p>
+<p>然后输入</p>
+
+<pre><code>hmmscan -h</code></pre>
+<p>建议直接复制粘贴，避免出错。如果出现类似下面的东西，就说明安装上了。</p>
+<p><figure><img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200311221617658.png#vwid=945&vhei=572" alt="图示" /><figcaption>图示</figcaption></figure></p>
+<hr><div class="footnotes"><ol><li id="fn_1">1 <a no-style href="#fn_ref_1">↩</a></li></ol></div></article>
     </section>
 
     
+    <section id="content-pager">
+        
+        
+            <div class="prev">
+                <a class="card" href="/archives/blog-with-gitHub/">
+                    <time>December 20 2019</time>
+                    <span>使用GitHub部署Maverick</span>
+                </a>
+            </div>
+        
+    </section>
+    
+
+    
+        <section id="comments">
+            <div id="vcomments"></div>
+        </section>
+        <script>
+            window.ValineOpt = {"enable": true, "appId": "lTLdTTzd205yE2zU6GJWJaR4-gzGzoHsz", "appKey": "a0vt5WzsVhdJKNp8j3utdUuN", "notify": "false", "visitor": "false", "recordIP": "true", "serverURLs": null, "placeholder": "\u5728\u8fd9\u513f\u8bc4\u8bba\u2026\u2026"};
+            window.ValineOpt.path = window.location.pathname;
+        </script>
+    
 
     <script>
-        document.body.classList.add('archive');
-        document.body.classList.remove('content');
+        document.body.classList.add('content');
+        document.body.classList.remove('archive');
     </script>
-
 </div>
                     <footer>
                         <span>Copyright © 2020 mikusa</span>
                         
+    <span class="leancloud_visitors"
+            id="/archives/install-windows-hmmer/" 
+            data-flag-title="Windows Hmmer 的安装">
+            <i class="fa fa-eye"></i> <i style="font-style: normal" class="leancloud-visitors-count"></i> Views
+        </span>
+
                         <span class="addon">
 <link rel="stylesheet" href="${static_prefix}brand_font/embed.css" />
 <style>.brand{font-family:FZCuJinLJW,serif;font-weight: normal!important;}</style>
@@ -148,7 +204,10 @@
                     </footer>
                 </div>
                 
-<aside id="toc-container" class="no-scrollbar no-bg"></aside>
+<aside id="toc-container" class="no-scrollbar">
+    <span><i class="fa fa-align-right"></i> CONTENTS</span>
+    <div id="toc"></div>
+</aside>
 
             </div>
         </main>
