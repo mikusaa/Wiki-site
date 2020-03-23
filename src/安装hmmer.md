@@ -64,4 +64,4 @@ hmmscan -h
 
 ![图示](./images/windows-hmmer-install/image-20200311221617658.png#vwid=945&vhei=572)
 
-
+[^1]: 简书：[windows下安装hmmer软件进行结构域模式扫描](https://www.jianshu.com/p/5419a7569e10)
