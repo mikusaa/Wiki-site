@@ -18,7 +18,7 @@ excerpt: Windows Hmmer 的安装方法
 
 ![](./images/windows-hmmer-install/image-20200311194211778.png)
 
-下载、解压之后，是一堆看不懂的东西，没有可以直接双击打开的`.exe`文件，大概是需要敲命令才能启动程序。搜索了一下安装方法[^1]，下面详细演示。
+下载、解压之后，是一堆看不懂的东西，没有可以直接双击打开的`.exe`文件，大概是需要敲命令才能启动程序。搜索了一下安装方法[^windows下安装hmmer软件进行结构域模式扫描：https://www.jianshu.com/p/5419a7569e10]，下面详细演示。
 
 ### 2. 安装
 
@@ -63,5 +63,3 @@ hmmscan -h
 建议直接复制粘贴，避免出错。如果出现类似下面的东西，就说明安装上了。
 
 ![图示](./images/windows-hmmer-install/image-20200311221617658.png)
-
-[^1]: 简书：[windows下安装hmmer软件进行结构域模式扫描](https://www.jianshu.com/p/5419a7569e10)
