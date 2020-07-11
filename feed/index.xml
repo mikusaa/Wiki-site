@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>初之文库</title><link>/</link><description>你好，未来。</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/logo.png</url><title>初之文库</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 25 Mar 2020 02:03:00 +0806</lastBuildDate><pubDate>Wed, 25 Mar 2020 02:03:00 +0806</pubDate><item><title>Hello World!</title><link>/archives/hello-world/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>初之文库</title><link>/</link><description>你好，未来。</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/logo.png</url><title>初之文库</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 11 Jul 2020 10:33:39 +0806</lastBuildDate><pubDate>Sat, 11 Jul 2020 10:33:39 +0806</pubDate><item><title>Hello World!</title><link>/archives/hello-world/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -8,10 +8,12 @@
 &lt;p&gt;We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth.&lt;/p&gt;
 &lt;p&gt;We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.&lt;/p&gt;
 &lt;h2&gt;Inline elements&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;, &lt;ruby&gt;Ruby&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;ルビ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, &lt;em&gt;Italic&lt;/em&gt;, &lt;del&gt;Strikethrough&lt;/del&gt;, &lt;a href="https://www.imalan.cn"&gt;Link&lt;/a&gt;&lt;sup id="fn_ref_1"&gt;&lt;a href="#fn_1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;, &lt;ruby&gt;Ruby&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;ルビ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, &lt;em&gt;Italic&lt;/em&gt;, &lt;del&gt;Strikethrough&lt;/del&gt;, &lt;a href="https://www.imalan.cn"&gt;Link&lt;/a&gt;&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;h2&gt;Blockquote and nested blockquote&lt;/h2&gt;
-&lt;blockquote&gt;&lt;p&gt;安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Code&lt;/h2&gt;
@@ -44,7 +46,7 @@
 &lt;li&gt;关上冰箱&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Horizontal rule&lt;/h2&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;h2&gt;Math&lt;/h2&gt;
 &lt;p&gt;Inline Math: $m\times n$, math block:&lt;/p&gt;
 &lt;p&gt;$$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$&lt;/p&gt;
@@ -55,31 +57,41 @@
 &lt;div class="photos"&gt;
 &lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/4956a144888cdbbb6c2df1d1d15384b0.jpeg" alt="" /&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;img data-width="2690" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/4c66f0da616b08325b3aaa4c8b3f68e1.jpg" alt="" /&gt;&lt;/figure&gt;
-&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/8b4d2334469ffa39b59e6fdb37c8c601.jpeg" alt="" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;div class="photos"&gt;
+&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/8b4d2334469ffa39b59e6fdb37c8c601.jpeg" alt="" /&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;div class="photos"&gt;
 &lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/0f5023d542a33e7c9d270f3cd6a99562.jpeg" alt="" /&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/ba1042a6a91a159559ac85bd4929d5d4.jpeg" alt="" /&gt;&lt;/figure&gt;
-&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/2b8af25285e5a193729a350593113bad.jpeg" alt="" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;h2&gt;Table&lt;/h2&gt;
+&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/2b8af25285e5a193729a350593113bad.jpeg" alt="" /&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;h2&gt;Table&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;&lt;tr&gt;
-&lt;th&gt;header&lt;/th&gt;
-&lt;th&gt;header&lt;/th&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;header&lt;/th&gt;
+  &lt;th&gt;header&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;cell 1&lt;/td&gt;
-&lt;td&gt;cell 2&lt;/td&gt;
+  &lt;td&gt;cell 1&lt;/td&gt;
+  &lt;td&gt;cell 2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;cell 3&lt;/td&gt;
-&lt;td&gt;cell 4&lt;/td&gt;
+  &lt;td&gt;cell 3&lt;/td&gt;
+  &lt;td&gt;cell 4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</description><author>i@himiku.com (mikusa)</author><guid isPermaLink="true">/archives/hello-world/</guid><pubDate>Wed, 18 Dec 2019 16:50:00 +0806</pubDate></item><item><title>使用GitHub部署Maverick</title><link>/archives/blog-with-gitHub/</link><description>&lt;p&gt;这是博客文章&lt;a href="https://blog.imalan.cn/archives/blog-with-github/"&gt;《完全用 GitHub 写博客》&lt;/a&gt;所提出方法的示例仓库。你可以将这个仓库 fork 到自己的账户下（点击右上角的 Fork 按钮），然后按照本文档余下的内容操作一遍，就知道该如何使用了。&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Fork 之后暂时不要修改仓库名称，保持 Blog-With-GitHub-Boilerplate&lt;/p&gt;
+&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;             &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;             &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;Home page for AlanDecode&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description><author>i@himiku.com (mikusa)</author><guid isPermaLink="true">/archives/hello-world/</guid><pubDate>Wed, 18 Dec 2019 16:50:00 +0806</pubDate></item><item><title>使用GitHub部署Maverick</title><link>/archives/blog-with-gitHub/</link><description>&lt;p&gt;这是博客文章&lt;a href="https://blog.imalan.cn/archives/blog-with-github/"&gt;《完全用 GitHub 写博客》&lt;/a&gt;所提出方法的示例仓库。你可以将这个仓库 fork 到自己的账户下（点击右上角的 Fork 按钮），然后按照本文档余下的内容操作一遍，就知道该如何使用了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fork 之后暂时不要修改仓库名称，保持 Blog-With-GitHub-Boilerplate&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;第一步：为仓库开启 Pages 服务&lt;/h2&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="536" data-height="58" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/cce98aef950ff8f5ed078758490d8fa2.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -95,9 +107,10 @@
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1024" data-height="675" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/9c1754f91cdd8704a9ef2f91baf41bce.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;💡 从这里开始我们会对仓库的文件做一些修改，如果你电脑上有安装 Git，可以把仓库 clone 到本地，完成修改后提交并 push 回去；如果没有安装，可以直接在浏览器中编辑文件。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;第三步：尝试修改一下网站设置&lt;/h2&gt;
-&lt;blockquote&gt;&lt;p&gt;新 fork 的仓库可能需要手动打开 Actions。点击仓库顶部的 Actions 按钮：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;新 fork 的仓库可能需要手动打开 Actions。点击仓库顶部的 Actions 按钮：&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="249" data-height="134" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/93529c8e8064a232673018577fd957f3.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;如果出现了以下提示，点击 "I understand my workflows, go ahead and run them".&lt;/p&gt;
+&lt;p&gt;如果出现了以下提示，点击 &amp;quot;I understand my workflows, go ahead and run them&amp;quot;.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="885" data-height="376" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/edd43c9bcf1591a60dfc6ff06b668553.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;回到仓库首页，点击 conf.py 文件，然后点击编辑按钮：&lt;/p&gt;
@@ -128,66 +141,73 @@ tags:
 excerpt: Hello World!
 ---
 
-这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！&lt;/code&gt;&lt;/pre&gt;
+这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;点击页脚的 Commit new file，稍等片刻再访问 &lt;code&gt;https://&amp;lt;用户名&amp;gt;.github.io/Blog-With-GitHub-Boilerplate&lt;/code&gt;，可见新文章已经发布了！&lt;/p&gt;
 &lt;h2&gt;第五步：使用 jsDelivr 作为博客的 CDN 服务&lt;/h2&gt;
 &lt;p&gt;回到仓库首页，点击 conf.py 文件，然后点击编辑按钮。修改 &lt;code&gt;enable_jsdelivr&lt;/code&gt; 如下：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;enable_jsdelivr = {
-    "enabled": True,
-    "repo": "&amp;lt;你的用户名&amp;gt;/Blog-With-GitHub-Boilerplate@gh-pages"
-}&lt;/code&gt;&lt;/pre&gt;
+    &amp;quot;enabled&amp;quot;: True,
+    &amp;quot;repo&amp;quot;: &amp;quot;&amp;lt;你的用户名&amp;gt;/Blog-With-GitHub-Boilerplate@gh-pages&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;点击 Commit changes。然后修改你刚才添加的文章，在里面插入一张仓库中的图片：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
 
-![幽灵公主剧照](./images/Mononoke_Hime.jpg)&lt;/code&gt;&lt;/pre&gt;
+![幽灵公主剧照](./images/Mononoke_Hime.jpg)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;发布后稍等片刻再访问你的网站，此时网站的图片都通过 jsDelivr 传输的。不信的话在图片上右键选择「在新标签页中打开图片」，看链接是否以 &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt; 开头。&lt;/p&gt;
 &lt;p&gt;要插入你自己的图片，请把图片上传到 &lt;code&gt;src/images&lt;/code&gt; 文件夹里，然后在文章中使用 Markdown 语法引用即可。&lt;/p&gt;
 &lt;h2&gt;第六步：进行更多的自定义与创作&lt;/h2&gt;
 &lt;p&gt;经过以上的步骤你已经学会了自定义网站、添加文章与修改文章。接下来就该你自由发挥了。仓库中 conf.py 里面的内容都可以自定义修改，特别要注意格式，比如引号要使用英文引号之类的。针对网站的设置项请参考 &lt;a href="https://github.com/AlanDecode/Maverick/blob/master/README.md"&gt;Maverick/README.md&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;仓库自带的 about.md 与 Typography 都可改可删，全看你。&lt;/p&gt;
-&lt;p&gt;仓库&lt;code&gt;src/static&lt;/code&gt; 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 &lt;code&gt;site_logo&lt;/code&gt; 为 &lt;code&gt;"${static_prefix}新的logo.png"&lt;/code&gt; 即可。&lt;/p&gt;
-&lt;p&gt;现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 &lt;code&gt;site_prefix&lt;/code&gt; 设置为 &lt;code&gt;"/&amp;lt;新的仓库名&amp;gt;/"&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;仓库&lt;code&gt;src/static&lt;/code&gt; 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 &lt;code&gt;site_logo&lt;/code&gt; 为 &lt;code&gt;&amp;quot;${static_prefix}新的logo.png&amp;quot;&lt;/code&gt; 即可。&lt;/p&gt;
+&lt;p&gt;现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 &lt;code&gt;site_prefix&lt;/code&gt; 设置为 &lt;code&gt;&amp;quot;/&amp;lt;新的仓库名&amp;gt;/&amp;quot;&lt;/code&gt;。&lt;/p&gt;
 &lt;h2&gt;第七步：在本地进行创作&lt;/h2&gt;
 &lt;p&gt;你可以把仓库 clone 到电脑上，修改后再将修改 push 回去。为了让这个过程方便一些，仓库中自带了 &lt;code&gt;update_site.bat&lt;/code&gt; 、&lt;code&gt;update_maverick.bat&lt;/code&gt; （Windows用），以及 &lt;code&gt;update_site.sh&lt;/code&gt;、&lt;code&gt;update_maverick.sh&lt;/code&gt; （Linux、macOS用）几个文件，看文件名应该就知道是干什么的。Windows 用户只需要双击对应的 bat 文件就可以执行，macOS 或者 Linux 用户可能首先需要在终端中给文件执行权限：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;chmod +x ./update_site.sh
  chmod +x ./update_maverick.sh
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;然后就能直接在终端运行这两个 .sh 文件了。或者使用终端直接打开它们。&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;关于如何在电脑上使用 Git&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;关于如何在电脑上使用 Git&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果你之前没有使用过 GitHub，那么需要进行一定的设置。如果你的电脑是 macOS 或者 Linux，git 可能是默认安装在电脑上的；如果是 Windows，则需要到&lt;a href="https://git-scm.com/downloads"&gt;这里&lt;/a&gt;下载合适的 Git 安装到电脑上。记得安装时选中将  git 添加到 PATH。&lt;/p&gt;
 &lt;p&gt;文件管理器中右键，点击 Git Bash Here，在弹出的窗口中输入：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git config --global user.name "你的GitHub用户名"
-git config --global user.email "你的GitHub邮箱"
-git config --global credential.helper store&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;git config --global user.name &amp;quot;你的GitHub用户名&amp;quot;
+git config --global user.email &amp;quot;你的GitHub邮箱&amp;quot;
+git config --global credential.helper store
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;之后到仓库右上角的 Clone or download 那里，复制仓库链接（建议使用 HTTPS）：&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="496" data-height="299" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/f39189d5be1e7dca3bdb803912b19df7.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在命令行中输入：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git clone &amp;lt;仓库链接&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;git clone &amp;lt;仓库链接&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;若需要输入用户名密码则输入就行。这样仓库就克隆到了本地。在仓库中进行修改后，这样提交文件：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# cd 到仓库文件夹后
 
 git add .
-git commit -m "添加修改"
-git push&lt;/code&gt;&lt;/pre&gt;
+git commit -m &amp;quot;添加修改&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;这样本地的修改就推送到了 GitHub。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;第八步：绑定自定义域名&lt;/h2&gt;
-&lt;p&gt;如果你有自己的域名，请在域名解析商那里将域名 CNAME 设置为 &lt;code&gt;&amp;lt;用户名&amp;gt;.github.io&lt;/code&gt;，然后回到仓库，在 &lt;code&gt;src/static&lt;/code&gt; 文件夹中添加一个名叫 CNAME 的文件，内容填写你自己的域名。然后在 conf.py 中修改 &lt;code&gt;site_prefix&lt;/code&gt; 为 &lt;code&gt;"/"&lt;/code&gt;。稍等片刻，你的网站就能通过你的域名访问了。&lt;/p&gt;
+&lt;p&gt;如果你有自己的域名，请在域名解析商那里将域名 CNAME 设置为 &lt;code&gt;&amp;lt;用户名&amp;gt;.github.io&lt;/code&gt;，然后回到仓库，在 &lt;code&gt;src/static&lt;/code&gt; 文件夹中添加一个名叫 CNAME 的文件，内容填写你自己的域名。然后在 conf.py 中修改 &lt;code&gt;site_prefix&lt;/code&gt; 为 &lt;code&gt;&amp;quot;/&amp;quot;&lt;/code&gt;。稍等片刻，你的网站就能通过你的域名访问了。&lt;/p&gt;
 </description><author>i@himiku.com (mikusa)</author><guid isPermaLink="true">/archives/blog-with-gitHub/</guid><pubDate>Fri, 20 Dec 2019 12:10:00 +0806</pubDate></item><item><title>Windows Hmmer 的安装</title><link>/archives/install-windows-hmmer/</link><description>&lt;h3&gt;1. 下载&lt;/h3&gt;
 &lt;p&gt;既然不能为了使用 Linux HMMER 特地开个虚拟机&lt;del&gt;（好像也不是不行）&lt;/del&gt;，那就找找看历史版本。通过已知的 Linux 版下载链接，发现 HMMER 把所有的历史软件都放在&lt;a href="http://eddylab.org/software/"&gt;这个地方&lt;/a&gt; 备份着，因此得知最后一个 Windows HMMER 版本为 3.0。&lt;a href="http://eddylab.org/software/hmmer3/3.0/hmmer-3.0-windows.zip"&gt;传送门&lt;/a&gt;  / &lt;a href="https://www.lanzous.com/iafa2sf"&gt;备份&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="845" data-height="513" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/ec5f14ec7675ce165ea727d5b2de9900.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;下载、解压之后，是一堆看不懂的东西，没有可以直接双击打开的&lt;code&gt;.exe&lt;/code&gt;文件，大概是需要敲命令才能启动程序。搜索了一下安装方法&lt;sup id="fn_ref_1"&gt;&lt;a href="#fn_1"&gt;1&lt;/a&gt;&lt;/sup&gt;，下面详细演示。&lt;/p&gt;
+&lt;p&gt;下载、解压之后，是一堆看不懂的东西，没有可以直接双击打开的&lt;code&gt;.exe&lt;/code&gt;文件，大概是需要敲命令才能启动程序。搜索了一下安装方法&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;，下面详细演示。&lt;/p&gt;
 &lt;h3&gt;2. 安装&lt;/h3&gt;
 &lt;p&gt;Windows HMMER 安装起来还算简单。&lt;/p&gt;
 &lt;p&gt;首先打开 &lt;strong&gt;控制面板&lt;/strong&gt;，搜索 &lt;strong&gt;环境变量&lt;/strong&gt;，点击 &lt;strong&gt;编辑系统环境变量&lt;/strong&gt;，选择 &lt;strong&gt;环境变量&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1078" data-height="598" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/789427c4f06f9df8f51024ba56e9a928.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在 &lt;strong&gt;系统变量&lt;/strong&gt; 里找到&lt;code&gt;Path&lt;/code&gt;，点击 &lt;strong&gt;编辑&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./images/windows-hmmer-install/image-20200318182918857.png#vwid=592&amp;vhei=266" alt="image-20200318182918857" /&gt;&lt;figcaption&gt;image-20200318182918857&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="592" data-height="266" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/69d542860e12743f6c83c46bf3883ef9.png" alt="image-20200318182918857" /&gt;&lt;figcaption&gt;image-20200318182918857&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;点击右边的 &lt;strong&gt;新建&lt;/strong&gt; 按钮，填入 HMMER 所在的 &lt;strong&gt;路径&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="525" data-height="531" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/ecd755e395edfd6230541ae83e159da8.png" alt="image-20200318183107408" /&gt;&lt;figcaption&gt;image-20200318183107408&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;如果不知道啥叫路径，进入你放 HMMER 的地方，按照下图把地址栏里的东西复制下来，粘贴进上面的变量里，添加完成后，一路确定就行。&lt;/p&gt;
@@ -200,7 +220,13 @@ git push&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="859" data-height="386" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/268ebfe3955e85dbaeef2c3f50e87da5.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;然后输入&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;hmmscan -h&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;hmmscan -h
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;建议直接复制粘贴，避免出错。如果出现类似下面的东西，就说明安装上了。&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="945" data-height="572" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/5c23f5e9b6bfccc88a35e12a046c5ad5.png" alt="图示" /&gt;&lt;figcaption&gt;图示&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;windows下安装hmmer软件进行结构域模式扫描：https://www.jianshu.com/p/5419a7569e10 &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</description><author>i@himiku.com (mikusa)</author><guid isPermaLink="true">/archives/install-windows-hmmer/</guid><pubDate>Fri, 20 Mar 2020 12:10:00 +0806</pubDate></item></channel></rss>
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;windows下安装hmmer软件进行结构域模式扫描：&lt;a href="https://www.jianshu.com/p/5419a7569e10"&gt;https://www.jianshu.com/p/5419a7569e10&lt;/a&gt;&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description><author>i@himiku.com (mikusa)</author><guid isPermaLink="true">/archives/install-windows-hmmer/</guid><pubDate>Fri, 20 Mar 2020 12:10:00 +0806</pubDate></item></channel></rss>

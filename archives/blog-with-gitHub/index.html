@@ -11,7 +11,7 @@
     <meta name="template" content="Kepler" />
     <link rel="alternate" type="application/rss+xml" title="初之文库 &raquo; RSS 2.0" href="/feed/index.xml" />
     <link rel="alternate" type="application/atom+xml" title="初之文库 &raquo; ATOM 1.0" href="/feed/atom/index.xml" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/assets/kepler-8f1c36e1cd.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/assets/kepler-426969802d.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/assets/ExSearch/ExSearch-182e5a8868.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/65e645bdf84819c44ad16950abb21ea2.json"
+            api: "https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/7861ac0d2f45e45dc90c207eac3bfc34.json"
         }
     </script>
     <script>
@@ -129,7 +129,8 @@
             </span>
         </p>
         <article class="yue"><p>这是博客文章<a href="https://blog.imalan.cn/archives/blog-with-github/">《完全用 GitHub 写博客》</a>所提出方法的示例仓库。你可以将这个仓库 fork 到自己的账户下（点击右上角的 Fork 按钮），然后按照本文档余下的内容操作一遍，就知道该如何使用了。</p>
-<blockquote><p>Fork 之后暂时不要修改仓库名称，保持 Blog-With-GitHub-Boilerplate</p>
+<blockquote>
+<p>Fork 之后暂时不要修改仓库名称，保持 Blog-With-GitHub-Boilerplate</p>
 </blockquote>
 <h2>第一步：为仓库开启 Pages 服务</h2>
 <p><figure><img data-width="536" data-height="58" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/cce98aef950ff8f5ed078758490d8fa2.png" alt="" /></figure></p>
@@ -145,9 +146,10 @@
 <p><figure><img data-width="1024" data-height="675" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/9c1754f91cdd8704a9ef2f91baf41bce.png" alt="" /></figure></p>
 <p><strong>💡 从这里开始我们会对仓库的文件做一些修改，如果你电脑上有安装 Git，可以把仓库 clone 到本地，完成修改后提交并 push 回去；如果没有安装，可以直接在浏览器中编辑文件。</strong></p>
 <h2>第三步：尝试修改一下网站设置</h2>
-<blockquote><p>新 fork 的仓库可能需要手动打开 Actions。点击仓库顶部的 Actions 按钮：</p>
+<blockquote>
+<p>新 fork 的仓库可能需要手动打开 Actions。点击仓库顶部的 Actions 按钮：</p>
 <p><figure><img data-width="249" data-height="134" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/93529c8e8064a232673018577fd957f3.png" alt="" /></figure></p>
-<p>如果出现了以下提示，点击 "I understand my workflows, go ahead and run them".</p>
+<p>如果出现了以下提示，点击 &quot;I understand my workflows, go ahead and run them&quot;.</p>
 <p><figure><img data-width="885" data-height="376" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/edd43c9bcf1591a60dfc6ff06b668553.png" alt="" /></figure></p>
 </blockquote>
 <p>回到仓库首页，点击 conf.py 文件，然后点击编辑按钮：</p>
@@ -178,56 +180,63 @@ tags:
 excerpt: Hello World!
 ---
 
-这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！</code></pre>
+这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
+</code></pre>
 <p>点击页脚的 Commit new file，稍等片刻再访问 <code>https://&lt;用户名&gt;.github.io/Blog-With-GitHub-Boilerplate</code>，可见新文章已经发布了！</p>
 <h2>第五步：使用 jsDelivr 作为博客的 CDN 服务</h2>
 <p>回到仓库首页，点击 conf.py 文件，然后点击编辑按钮。修改 <code>enable_jsdelivr</code> 如下：</p>
 
 <pre><code>enable_jsdelivr = {
-    "enabled": True,
-    "repo": "&lt;你的用户名&gt;/Blog-With-GitHub-Boilerplate@gh-pages"
-}</code></pre>
+    &quot;enabled&quot;: True,
+    &quot;repo&quot;: &quot;&lt;你的用户名&gt;/Blog-With-GitHub-Boilerplate@gh-pages&quot;
+}
+</code></pre>
 <p>点击 Commit changes。然后修改你刚才添加的文章，在里面插入一张仓库中的图片：</p>
 
 <pre><code>这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
 
-![幽灵公主剧照](./images/Mononoke_Hime.jpg)</code></pre>
+![幽灵公主剧照](./images/Mononoke_Hime.jpg)
+</code></pre>
 <p>发布后稍等片刻再访问你的网站，此时网站的图片都通过 jsDelivr 传输的。不信的话在图片上右键选择「在新标签页中打开图片」，看链接是否以 <code>cdn.jsdelivr.net</code> 开头。</p>
 <p>要插入你自己的图片，请把图片上传到 <code>src/images</code> 文件夹里，然后在文章中使用 Markdown 语法引用即可。</p>
 <h2>第六步：进行更多的自定义与创作</h2>
 <p>经过以上的步骤你已经学会了自定义网站、添加文章与修改文章。接下来就该你自由发挥了。仓库中 conf.py 里面的内容都可以自定义修改，特别要注意格式，比如引号要使用英文引号之类的。针对网站的设置项请参考 <a href="https://github.com/AlanDecode/Maverick/blob/master/README.md">Maverick/README.md</a>。</p>
 <p>仓库自带的 about.md 与 Typography 都可改可删，全看你。</p>
-<p>仓库<code>src/static</code> 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 <code>site_logo</code> 为 <code>"${static_prefix}新的logo.png"</code> 即可。</p>
-<p>现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 <code>site_prefix</code> 设置为 <code>"/&lt;新的仓库名&gt;/"</code>。</p>
+<p>仓库<code>src/static</code> 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 <code>site_logo</code> 为 <code>&quot;${static_prefix}新的logo.png&quot;</code> 即可。</p>
+<p>现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 <code>site_prefix</code> 设置为 <code>&quot;/&lt;新的仓库名&gt;/&quot;</code>。</p>
 <h2>第七步：在本地进行创作</h2>
 <p>你可以把仓库 clone 到电脑上，修改后再将修改 push 回去。为了让这个过程方便一些，仓库中自带了 <code>update_site.bat</code> 、<code>update_maverick.bat</code> （Windows用），以及 <code>update_site.sh</code>、<code>update_maverick.sh</code> （Linux、macOS用）几个文件，看文件名应该就知道是干什么的。Windows 用户只需要双击对应的 bat 文件就可以执行，macOS 或者 Linux 用户可能首先需要在终端中给文件执行权限：</p>
 <div class="highlight"><pre><span></span>chmod +x ./update_site.sh
  chmod +x ./update_maverick.sh
 </pre></div>
 <p>然后就能直接在终端运行这两个 .sh 文件了。或者使用终端直接打开它们。</p>
-<blockquote><p><strong>关于如何在电脑上使用 Git</strong></p>
+<blockquote>
+<p><strong>关于如何在电脑上使用 Git</strong></p>
 <p>如果你之前没有使用过 GitHub，那么需要进行一定的设置。如果你的电脑是 macOS 或者 Linux，git 可能是默认安装在电脑上的；如果是 Windows，则需要到<a href="https://git-scm.com/downloads">这里</a>下载合适的 Git 安装到电脑上。记得安装时选中将  git 添加到 PATH。</p>
 <p>文件管理器中右键，点击 Git Bash Here，在弹出的窗口中输入：</p>
 
-<pre><code>git config --global user.name "你的GitHub用户名"
-git config --global user.email "你的GitHub邮箱"
-git config --global credential.helper store</code></pre>
+<pre><code>git config --global user.name &quot;你的GitHub用户名&quot;
+git config --global user.email &quot;你的GitHub邮箱&quot;
+git config --global credential.helper store
+</code></pre>
 <p>之后到仓库右上角的 Clone or download 那里，复制仓库链接（建议使用 HTTPS）：</p>
 <p><figure><img data-width="496" data-height="299" src="https://cdn.jsdelivr.net/gh/mikusaa/Wiki-site@gh-pages/archives/assets/f39189d5be1e7dca3bdb803912b19df7.png" alt="" /></figure></p>
 <p>在命令行中输入：</p>
 
-<pre><code>git clone &lt;仓库链接&gt;</code></pre>
+<pre><code>git clone &lt;仓库链接&gt;
+</code></pre>
 <p>若需要输入用户名密码则输入就行。这样仓库就克隆到了本地。在仓库中进行修改后，这样提交文件：</p>
 
 <pre><code># cd 到仓库文件夹后
 
 git add .
-git commit -m "添加修改"
-git push</code></pre>
+git commit -m &quot;添加修改&quot;
+git push
+</code></pre>
 <p>这样本地的修改就推送到了 GitHub。</p>
 </blockquote>
 <h2>第八步：绑定自定义域名</h2>
-<p>如果你有自己的域名，请在域名解析商那里将域名 CNAME 设置为 <code>&lt;用户名&gt;.github.io</code>，然后回到仓库，在 <code>src/static</code> 文件夹中添加一个名叫 CNAME 的文件，内容填写你自己的域名。然后在 conf.py 中修改 <code>site_prefix</code> 为 <code>"/"</code>。稍等片刻，你的网站就能通过你的域名访问了。</p>
+<p>如果你有自己的域名，请在域名解析商那里将域名 CNAME 设置为 <code>&lt;用户名&gt;.github.io</code>，然后回到仓库，在 <code>src/static</code> 文件夹中添加一个名叫 CNAME 的文件，内容填写你自己的域名。然后在 conf.py 中修改 <code>site_prefix</code> 为 <code>&quot;/&quot;</code>。稍等片刻，你的网站就能通过你的域名访问了。</p>
 </article>
     </section>
 
