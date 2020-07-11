@@ -32,7 +32,7 @@ Windows HMMER 安装起来还算简单。
 
 在 **系统变量** 里找到`Path`，点击 **编辑**
 
-![image-20200318182918857](./images/windows-hmmer-install/image-20200318182918857.png#vwid=592&vhei=266)
+![image-20200318182918857](./images/windows-hmmer-install/image-20200318182918857.png)
 
 点击右边的 **新建** 按钮，填入 HMMER 所在的 **路径**
 
